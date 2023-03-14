@@ -1,12 +1,7 @@
-@import 'components/logo';
-@import 'components/page-header';
-@import 'components/section';
-@import 'utils/vars.scss';
-
-body {
-  color: red;
-}
-
-header {
-  color: blue;
-}
+@import 'utils/vars';
+@import 'components/global-styles';
+@import 'components/modal-window';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/portfolio';
+@import 'components/main-page';

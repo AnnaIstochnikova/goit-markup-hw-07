@@ -1,1 +1,1 @@
-https://annaistochnikova.github.io/goit-markup-hw-06/
+https://annaistochnikova.github.io/goit-markup-hw-07/
