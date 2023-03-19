@@ -44,8 +44,7 @@ header {
   &:hover,
   &focus {
     color: getColor(brand-color);
-    transition-property: color;
-    transition: $transition;
+    transition: color $transition;
   }
 
   &--active {
@@ -71,8 +70,7 @@ header {
   &:hover,
   &:focus {
     color: getColor(brand-color);
-    transition-property: color;
-    transition: $transition;
+    transition: color $transition;
   }
 
   &__icon {
@@ -82,7 +80,6 @@ header {
   &:hover .contact__icon,
   &:focus .contact__icon {
     fill: getColor(brand-color);
-    transition-property: fill;
-    transition: $transition;
+    transition: fill $transition;
   }
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: $font-main;
+  font-family: 'Roboto', sans-serif;
   color: getColor(main-color);
   width: 1600px;
 }
@@ -9,7 +9,6 @@ svg {
 a,
 address {
   text-decoration: none;
-  font-style: normal;
 }
 li {
   list-style: none;
@@ -42,7 +41,6 @@ li {
   &:focus {
     color: getColor('main-color');
     cursor: pointer;
-    transition-property: color;
-    transition: $transition;
+    transition: color $transition;
   }
 }

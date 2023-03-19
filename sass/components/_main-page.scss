@@ -11,8 +11,8 @@ h1 {
 }
 
 .box__background-photo--big {
-  background-color: getColor(background-color);
-  background-image: url('../images/10.jpg'), url('../images/11.jpg');
+  background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/10.jpg');
   height: 600px;
   text-align: center;
 }
@@ -74,8 +74,7 @@ h1 {
   &:focus {
     border: 1px solid getColor(brand-color);
     fill: getColor(brand-color);
-    transition-property: fill;
-    transition: $transition;
+    transition: fill $transition;
   }
 }
 
@@ -97,8 +96,7 @@ h1 {
 .icon--white-background:focus {
   background-color: getColor(brand-color);
   fill: getColor('white');
-  transition-property: background-color, fill;
-  transition: $transition, $transition;
+  transition: background-color $transition, fill $transition;
 }
 .photo-card {
   background-color: getColor('white');
